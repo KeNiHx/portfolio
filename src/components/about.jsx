@@ -22,23 +22,31 @@ export default class About extends Component {
                 </div>
             </div>
             </section>
-            <section className="colorlib-about">
+            <section className="colorlib-projects" data-section="projects">
             <div className="colorlib-narrow-content">
                 <div className="row">
                 <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                    <span className="heading-meta">What I do?</span>
-                    <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                    <span className="heading-meta">What have I done?</span>
+                    <h2 className="colorlib-heading">Here are some of my projects</h2>
                 </div>
                 </div>
                 <div className="row row-pt-md">
                 <div className="col-md-4 text-center animate-box">
                     <div className="services color-1">
                     <span className="icon">
-                        <i className="icon-bulb" />
+                        <i className="icon-code" />
                     </span>
                     <div className="desc">
-                        <h3>Web Development </h3>
-                        <p>I have experience building a web based Spotify clone using JavaScript,PHP,HTML,CSS</p>
+                    <h3>Portfolio Website</h3>
+                        <div class="portfolioImg"><img src="#" alt="portfolioWebsite" /></div>  
+                        <p>As coming from the Bachelors of Computer Information Systems background, I wanted to create a portfolio website.</p>
+                        <form action="#">
+                        <button type="submit" class="viewPortfolioBtn">View Demo</button>
+                        </form>                        
+                        <form action="https://github.com/KeNiHx/portfolio">
+                        <button type="submit" class="viewPortfolioSCBtn">View Souce Code</button>
+                        </form>
+                        
                     </div>
                     </div>
                 </div>
@@ -48,8 +56,17 @@ export default class About extends Component {
                         <i className="icon-phone3" />
                     </span>
                     <div className="desc">
-                        <h3>Data Structures & Algorithms</h3>
-                        <p>As coming from the Bachelors of Computer Information Systems background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Spotify Clone </h3>
+                        <div class="spotifyImg"> <img src="" alt="spotifyClone"/></div>
+                       
+                        <p>I use Spotify pretty much all the time, I wanted to learn how to build one from scratch using JavaScript,PHP,HTML,CSS, and MySQL</p>
+                        <form action="#">
+                        <button class="viewSpotifyCloneBtn">View Demo</button> 
+                        </form>
+                        <form action="https://github.com/KeNiHx/MU">
+                        <button type="submit" class="viewSpotifyCloneSCBtn">View Souce Code</button>
+                        </form>
+                        
                     </div>
                     </div>
                 </div>
@@ -59,8 +76,17 @@ export default class About extends Component {
                         <i className="icon-data" />
                     </span>
                     <div className="desc">
-                        <h3>Software Development</h3>
-                        <p>Through my school projects, and internship experience I have been able to demonstrate my programming skills in Java.</p>
+                        <h3>Activity Tracker</h3>
+                        <div class="activityTrackerImg"><img src="" alt="activityTracker"/></div>
+                        
+                        <p>Through my school projects I haven created as a project an activity tracker using Swift and some iOS libraries.</p>
+                        <form action="#">
+                        <button type="submit" class="viewActivityTrackerBtn">View Demo</button>
+                        </form>
+                        <form action="#">
+                        <button class="viewActivityTrackerSCBtn">View Souce Code</button>
+                        </form>
+                         
                     </div>
                     </div>
                 </div></div>
